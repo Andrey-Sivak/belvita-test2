@@ -305,6 +305,8 @@ body {
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   background: #fecd0e;
+  -webkit-filter: blur(60px);
+          filter: blur(60px);
   border-radius: 50%;
 }
 
@@ -1828,6 +1830,8 @@ span.error {
   background: #fed912;
   border-radius: 50%;
   opacity: 0.7;
+  -webkit-filter: blur(240px);
+          filter: blur(240px);
 }
 
 .intro__title {
@@ -2253,6 +2257,8 @@ span.error {
   height: 162px;
   border-radius: 50%;
   background: #FECD0E;
+  -webkit-filter: blur(60px);
+          filter: blur(60px);
 }
 
 .nav__item:last-child {
@@ -3183,6 +3189,8 @@ b {
   z-index: 0;
   background: #FED912;
   opacity: 0.7;
+  -webkit-filter: blur(240px);
+          filter: blur(240px);
   width: 870px;
   height: 870px;
   content: '';
