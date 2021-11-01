@@ -15,6 +15,7 @@ $(document).ready(function () {
     evt.preventDefault();
     $("#burgerBtn").toggleClass("burger--active");
     $("#nav").toggleClass("nav--active");
+    $(".container.mob").toggleClass("active");
     $("html").toggleClass("noscroll");
 
     if ($(this).hasClass("active")) {
