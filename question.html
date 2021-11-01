@@ -24,134 +24,77 @@
 
 <body>
 
-  <header class="header" id="header">
-    <div class="container">
-      <div class="header__inner">
-        <div class="nav nav--left" id="nav">
-          <ul class="nav__list">
-            <li class="nav__item nav__item--cabinet no-xl md">
-              <a href="cabinet.html" class="nav__link">
-                <span class="nav__link__icon no-xl md"></span>
-                <span class="nav__link__text">
-                  Личный кабинет
-                </span>
-                <img width="174" height="34" class="nav__link__bg nav__link__bg--7"
-                  src="images/dist/nav__link__bg_7.svg" alt="img" loading="lazy">
-              </a>
-            </li>
+<header class="header" id="header">
+  <div class="container mob">
+    <a href="index.html" class="nav__link">
+      <img src="./images/logo.png"
+           loading="lazy"
+           width="100"
+           alt="img">
+    </a>
+    <div class="nav__item nav__item--burger no-xl md">
+      <button class="burger" id="burgerBtn" type="button">
+        <span class="burger__item">Menu</span>
+      </button>
+    </div>
+  </div>
 
-            <li class="nav__item">
-              <a href="index.html" class="nav__link nav__link--active">
-                <span class="nav__link__text">
-                  Главная
-                </span>
-                <img width="164" height="34" class="nav__link__bg nav__link__bg--1"
-                  src="images/dist/nav__link__bg_1.svg" alt="img" loading="lazy">
-              </a>
-            </li>
+  <div class="container">
+    <div class="header__inner">
+      <div class="nav nav--left" id="nav">
+        <ul class="nav__list">
 
-            <li class="nav__item">
-              <a href="test.html" class="nav__link nav__link">
-                <span class="nav__link__text">
-                  СОЖ-Тест
-                </span>
-                <img width="175" height="34" class="nav__link__bg nav__link__bg--2"
-                  src="images/dist/nav__link__bg_2.svg" alt="img" loading="lazy">
-              </a>
-            </li>
-
-            <li class="nav__item">
-              <a href="product.html" class="nav__link">
-                <span class="nav__link__text">
-                  О Продукте
-                </span>
-                <img width="148" height="34" class="nav__link__bg nav__link__bg--3"
-                  src="images/dist/nav__link__bg_3.svg" alt="img" loading="lazy">
-              </a>
-            </li>
-
-            <li class="nav__item">
-              <a href="winners.html" class="nav__link">
-                <span class="nav__link__text">
-                  Победители
-                </span>
-                <img width="148" height="34" class="nav__link__bg nav__link__bg--4"
-                  src="images/dist/nav__link__bg_4.svg" alt="img" loading="lazy">
-              </a>
-            </li>
-
-            <li class="nav__item">
-              <a href="index.html" class="nav__link">
-                <span class="nav__link__text">
-                  Правила
-                </span>
-                <img width="164" height="34" class="nav__link__bg nav__link__bg--5" src="images/dist/nav__link__bg.svg"
-                  alt="img" loading="lazy">
-              </a>
-            </li>
-
-            <li class="nav__item">
-              <a href="feedback.html" class="nav__link">
-                <span class="nav__link__text">
-                  Обратная связь
-                </span>
-                <img width="162" height="34" class="nav__link__bg nav__link__bg--6"
-                  src="images/dist/nav__link__bg_6.svg" alt="img" loading="lazy">
-              </a>
-            </li>
-          </ul>
-
-          <div class="nav__mobile__box no-xl md">
-            <a href="#" class="nav__btn btn" data-popup="#registrationPopup">
-              зарегистрировать карту
+          <li class="nav__item home-link">
+            <a href="index.html" class="nav__link">
+              <img src="./images/logo.png"
+                   loading="lazy"
+                   width="214"
+                   height="162"
+                   alt="img">
             </a>
+          </li>
 
-            <span class="nav__mobile__box__bg"></span>
-          </div>
-        </div>
+          <li class="nav__item">
+            <a href="test.html" class="nav__link nav__link--active">
+                  <span class="nav__link__text">
+                    СОЖ-Тест
+                  </span>
+              <img width="175" height="34" class="nav__link__bg nav__link__bg--2"
+                   src="images/dist/nav__link__bg_2.svg" alt="img" loading="lazy">
+            </a>
+          </li>
 
-        <div class="nav nav--right">
-          <ul class="nav__list">
-            <li class="nav__item nav__item--burger no-xl md">
-              <button class="burger" id="burgerBtn" type="button">
-                <span class="burger__item">Menu</span>
-              </button>
-            </li>
+          <li class="nav__item">
+            <a href="product.html" class="nav__link">
+                  <span class="nav__link__text">
+                    О Продукте
+                  </span>
+              <img width="148" height="34" class="nav__link__bg nav__link__bg--3"
+                   src="images/dist/nav__link__bg_3.svg" alt="img" loading="lazy">
+            </a>
+          </li>
 
-            <li class="nav__item nav__item--registration">
-              <a href="#" class="nav__btn btn" data-popup="#registrationPopup">
-                зарегистрировать карту
-              </a>
-            </li>
-
-            <li class="nav__item nav__item--lk">
-              <a href="cabinet.html" class="nav__link">
-                <span class="nav__link__icon no-xl md"></span>
-                <span class="nav__link__text">
-                  Личный кабинет
-                </span>
-                <img width="175" height="34" class="nav__link__bg nav__link__bg--7"
-                  src="images/dist/nav__link__bg_7.svg" alt="img" loading="lazy">
-              </a>
-            </li>
-          </ul>
-        </div>
+          <li class="nav__item">
+            <a href="feedback.html" class="nav__link">
+                  <span class="nav__link__text">
+                    Обратная связь
+                  </span>
+              <img width="162" height="34" class="nav__link__bg nav__link__bg--6"
+                   src="images/dist/nav__link__bg_6.svg" alt="img" loading="lazy">
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
-  </header>
+  </div>
+</header>
 
-  <main class="main">
+  <main class="main test">
 
     <div class="intro intro--question">
       <div class="container">
         <div class="intro__inner">
           <div class="intro__content">
-            <a href="#" class="logo">
-              <span class="logo__item">
-                <img class="logo__belvita" width="158" height="149" src="images/logo.png" alt="belvita" loading="lazy">
-                <span class="logo__ellipse"></span>
-              </span>
-            </a>
 
             <!-- question 1 -->
             <div class="question">
@@ -487,60 +430,15 @@
   <footer class="footer" id="footer">
 	<div class="container">
 		<div class="footer__inner">
-			<p class="footer__description">
-				Период проведения акции в ТС Перекрёсток, включая выдачу призов - с 01 августа 2021 по 31 октября 2021 года. Срок совершения покупок, регистрации карт клуба Перекрёсток, <br class="no-md">прохождения теста и получения персональной СОЖ-карты сайте belvita.life c 01 августа 2021 по 30 сентября 2021.
-				<br class="no-md">Организатор Акции ООО "Мон'дэлис Русь". Информацию об Организаторе Акции, о правилах ее проведения, количестве призов по результатам акции, сроках и месте и порядке их получения можно <br class="no-md">посмотреть на сайте belvita.life. Количество призов ограничено. Акция проводится на территории Российской Федерации и распространяется только на продукцию, купленную на территории <br class="no-md">Российской Федерации. По условиям Клуба Перекрёсток 10 баллов = 1 рублю
-			</p>
-
 			<div class="footer__wrapper">
-				<div class="contacts">
-					<a href="tel:8-800-555-8000" class="contacts__phone">
-						8-800-555-8000
-					</a>
-					<a href="mailto:info@belvita.life" class="contacts__email">
-						info@belvita.life
-					</a>
-				</div>
-
-				<div class="footer__center">
-
-					<nav class="footer__nav">
-						<ul class="footer__nav__list">
-							<li class="footer__nav__item">
-								<a href="#" class="footer__nav__link">
-									Политика конфиденциальности
-								</a>
-							</li>
-							<li class="footer__nav__item">
-								<a href="#" class="footer__nav__link">
-									Правила акции
-								</a>
-							</li>
-							<li class="footer__nav__item">
-								<a href="#" class="footer__nav__link">
-									Пользовательское соглашение
-								</a>
-							</li>
-						</ul>
-					</nav>
-
-					<div class="footer__copyright">
-						<img class="footer__copyright__img" width="132" height="48" src="images/dist/mondelez.svg" alt="mondelez"
-							loading="lazy">
-						<p class="footer__copyright__text">
-							ООО «Мон’дэлис Русь». Часть группы компаний Mondelēz International. Все права защищены.
-						</p>
-					</div>
-				</div>
+				<p class="footer__copyright__text">ООО «Мон’дэлис Русь».
+					<br>Часть группы компаний Mondelēz
+					<br>International. Все права защищены.</p>
+				<img class="footer__copyright__img" width="132" height="48" src="images/dist/mondelez.svg" alt="mondelez"
+						 loading="lazy">
 
 				<div class="social">
-					<a href="#" class="social__item social__item--vk" target="_blank">
-						<span></span>
-					</a>
 					<a href="#" class="social__item social__item--youtube" target="_blank">
-						<span></span>
-					</a>
-					<a href="#" class="social__item social__item--instagram" target="_blank">
 						<span></span>
 					</a>
 				</div>
@@ -549,10 +447,13 @@
 		</div>
 	</div>
 
-	<picture decoding="async">
-		<source srcset="images/dist/footer__bg--mobile.svg" media="(max-width: 767px)">
+	<!--<picture decoding="async">
+		<source srcset="images/dist/footer__bg&#45;&#45;mobile.svg" media="(max-width: 767px)">
 		<img class="footer__bg" src="images/dist/footer__bg.svg" alt="footer__bg" loading="lazy">
-	</picture>
+	</picture>-->
+	<div class="footer__bg">
+		<img src="./images/dist/footer__bg&#45;&#45;mobile.svg" alt="img">
+	</div>
 
 </footer>
 
