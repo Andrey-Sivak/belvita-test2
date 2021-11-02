@@ -305,8 +305,6 @@ body {
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   background: #fecd0e;
-  -webkit-filter: blur(60px);
-          filter: blur(60px);
   border-radius: 50%;
 }
 
@@ -1830,8 +1828,6 @@ span.error {
   background: #fed912;
   border-radius: 50%;
   opacity: 0.7;
-  -webkit-filter: blur(240px);
-          filter: blur(240px);
 }
 
 .intro__title {
@@ -2253,12 +2249,13 @@ span.error {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 214px;
-  height: 162px;
+  width: 250px;
+  height: 200px;
   border-radius: 50%;
-  background: #FECD0E;
-  -webkit-filter: blur(60px);
-          filter: blur(60px);
+  background-image: url("../../images/logo-shine.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .nav__item:last-child {
@@ -3187,12 +3184,8 @@ b {
 .stock:before {
   position: absolute;
   z-index: 0;
-  background: #FED912;
-  opacity: 0.7;
-  -webkit-filter: blur(240px);
-          filter: blur(240px);
-  width: 870px;
-  height: 870px;
+  width: 1100px;
+  height: 1100px;
   content: '';
   border-radius: 50%;
   top: 68px;
@@ -3200,6 +3193,10 @@ b {
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../images/stock-shine.png");
 }
 
 .video,
@@ -5115,9 +5112,11 @@ b {
   }
 
   .stock:before {
-    width: 552px;
-    top: 0;
-    height: 1050px;
+    width: 604px;
+    top: -200px;
+    height: 1200px;
+    background-image: -o-radial-gradient(#FED912 5%, rgba(254, 217, 18, 0) 70%) !important;
+    background-image: radial-gradient(#FED912 5%, rgba(254, 217, 18, 0) 70%) !important;
   }
 
   .stock {
@@ -5257,6 +5256,7 @@ b {
 b{background:url(../../images/dist/icons/form__select__arrow.svg) center no-repeat}
 .intro__test__description__bg{background-image:url("../../images/dist/intro/test__description.webp")}
 .intro--result .items__inner .wood-bg{background-image:url("../../images/dist/wood-bg.webp")}
+.nav__item.home-link:before{background-image:url("../../images/logo-shine.webp")}
 .pass__bg{background:url("../../images/dist/pass-bg_1.webp") no-repeat center}
 .question__intro__bg{background:url("../../images/dist/question/intro__bg.webp") no-repeat center}
 .select2-container--default
@@ -5272,6 +5272,7 @@ b{background:url(../../images/dist/icons/select__arrow.svg) center no-repeat}
 .social__item--youtube span{background-image:url("../../images/dist/social/youtube.svg")}
 .social__item--instagram span{background:url("../../images/dist/social/inst.svg") no-repeat center}
 .steps__bg{background:url("../../images/dist/steps/bg.webp") no-repeat center}
+.stock:before{background-image:url("../../images/stock-shine.webp")}
 .stock__slider__btn span{background:url("../../images/dist/icons/stock__arrow.svg") no-repeat center}
 }
 
